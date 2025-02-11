@@ -409,7 +409,7 @@ a {
     width: 336px;
     height: 289px;
     top: 25px;
-    left: -6px;
+    left: -8px;
 }
   
 .propuesta .correo-boton {
@@ -506,6 +506,6 @@ a {
 }
 @media screen and (min-width: 400px) and (max-width: 768px) {
   .propuesta .section{
-    left: 7px;
+    left: 8px;
   }
 }
