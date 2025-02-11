@@ -390,7 +390,7 @@ a {
     border-radius: 0px 0px 0px 0px;
     display: flex;
     justify-content: center;
-    padding: 0 7%;
+    padding: 0 6%;
 }
   
   .propuesta .header {
@@ -409,7 +409,7 @@ a {
     width: 336px;
     height: 289px;
     top: 25px;
-    left: 0;
+    left: -6px;
 }
   
 .propuesta .correo-boton {
@@ -417,7 +417,7 @@ a {
     width: 80% !important;
     height: 33px;
     top: 0;
-    left: 0;
+    left: 2px;
 
     display: flex;
     justify-content: center;
@@ -431,6 +431,7 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
+    left: 20px;
   }
 
   .propuesta .acepto-las,
@@ -497,6 +498,14 @@ a {
     color: white;
   }
   .propuesta .enviar-boton{
-    left:215px;
+    left:206px;
+  }
+  .propuesta .div-wrapper{
+    width:241px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .propuesta .section{
+    left: 7px;
   }
 }
