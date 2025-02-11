@@ -3,7 +3,7 @@ window.onload = function(){
         return;
     }
     mostrarPopup();
-    setCookie("popupWatched","true",1);
+    //setCookie("popupWatched","true",1);
     
 }
 
