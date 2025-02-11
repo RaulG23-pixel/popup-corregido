@@ -123,7 +123,7 @@ a {
     position: absolute;
     width: 326px;
     height: 29px;
-    top: 260px;
+    top: 253px;
     left: 2px;
   }
   
@@ -356,6 +356,19 @@ a {
     height: 7rem;
     
   }
+
+  .propuesta .footer{
+    font-family: "Montserrat", Helvetica;
+    position: absolute;
+    top: 276px;
+    display: flex;
+    justify-content: center;
+    color: var(--muchas);
+    font-weight: bold;
+    width: 100%;
+    font-size: 12px;
+    padding-left: 4.8%;
+  }
   
 
 @media screen and (max-width: 768px){
@@ -503,9 +516,13 @@ a {
   .propuesta .div-wrapper{
     width:241px;
   }
+  .propuesta .footer{
+    top: 345px;
+    font-size: 13px;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 768px) {
   .propuesta .section{
-    left: 8px;
+    left: 9px;
   }
 }
